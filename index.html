@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>个人数字名片 | 你的姓名</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-card">
+        <div class="card-inner">
+            <!-- 头像 -->
+            <div class="avatar">
+                <img src="images/my-photo.jpg" alt="个人头像" class="avatar-img">
+            </div>
+
+            <!-- 基本信息 -->
+            <div class="name-section">
+                <h1 class="name">梁士硕</h1>               <!-- 改为你的姓名 -->
+                <p class="student-id">学号：2363190017</p> <!-- 改为你的学号 -->
+                <p class="major">专业：计算机科学与技术</p> <!-- 改为你的专业 -->
+                <div class="title">前端架构师 · 全栈爱好者</div>
+            </div>
+
+            <!-- 自我介绍 -->
+            <div class="bio">
+                <i class="fas fa-quote-left"></i> 我是一名积极向上的学生，对待学习认真负责，善于沟通和团队协作。热爱编程与网页设计，喜欢探索新鲜事物。平时注重提升自己的专业技能，做事踏实细心，遇到问题会主动思考并寻找解决方法。希望通过不断学习，成为一名有能力的技术爱好者。
+            </div>
+
+            <!-- 教育背景板块（图标+标题一行，内容换行） -->
+            <div class="education-section">
+                <div class="edu-item">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <div class="edu-content">
+                        <div class="edu-label">学校：</div>
+                        <div class="edu-value">台州学院</div>
+                    </div>
+                </div>
+                <div class="edu-item">
+                    <div class="edu-icon"><i class="fas fa-building"></i></div>
+                    <div class="edu-content">
+                        <div class="edu-label">学院：</div>
+                        <div class="edu-value">人工智能学院</div>
+                    </div>
+                </div>
+                <div class="edu-item">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-content">
+                        <div class="edu-label">教育背景：</div>
+                        <div class="edu-value">本科（在读） · 2023 – 2027</div>
+                    </div>
+                </div>
+                <div class="edu-item">
+                    <div class="edu-icon"><i class="fas fa-book-open"></i></div>
+                    <div class="edu-content">
+                        <div class="edu-label">主修课程：</div>
+                        <div class="edu-value">
+                            <div class="course-tags">
+                                <span class="course-tag">数据结构</span>
+                                <span class="course-tag">操作系统</span>
+                                <span class="course-tag">计算机网络</span>
+                                <span class="course-tag">数据库原理</span>
+                                <span class="course-tag">Web前端开发</span>
+                                <span class="course-tag">软件工程</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 个性签名 -->
+            <div class="signature">
+                💡 保持热爱，不断进步！
+            </div>
+
+            <!-- 兴趣标签 & 技能标签 -->
+            <div class="tags-wrapper">
+                <div class="tag-group">
+                    <div class="tag-title"><i class="fas fa-heart"></i> 兴趣标签</div>
+                    <div class="tags">
+                        <span class="tag">🎨 设计</span>
+                        <span class="tag">📖 阅读</span>
+                        <span class="tag">✍️ 编程</span>
+                        <span class="tag">🏔️ 旅游</span>
+                    </div>
+                </div>
+                <div class="tag-group">
+                    <div class="tag-title"><i class="fas fa-code"></i> 技能标签</div>
+                    <div class="tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Vue</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 联系方式 -->
+            <div class="contact-list">
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>3254089236@qq.com</span>
+                    </div>
+                    <button class="copy-btn" data-copy="your.email@example.com" data-type="邮箱">复制</button>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+86 123 4567 8901</span>
+                    </div>
+                    <button class="copy-btn" data-copy="+86 17613718952" data-type="电话">复制</button>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <i class="fas fa-globe"></i>
+                        <a href="https://gitee.com/niuhulu-l" target="_blank">我的gitee网站</a>
+                    </div>
+                    <button class="copy-btn" data-copy="https://github.com/你的用户名" data-type="网址">复制</button>
+                </div>
+            </div>
+
+            <!-- 外部链接按钮 -->
+            <div class="external-link">
+                <a href="https://github.com/likxic" target="_blank" class="btn-outline">
+                    <i class="fab fa-github"></i> 我的 GitHub
+                </a>
+            </div>
+
+            <div class="footer-note">
+                <i class="fas fa-qrcode"></i> 数字名片 · 即时分享
+            </div>
+        </div>
+    </div>
+
+    <div id="toastMsg" class="toast-message"></div>
+    <script src="script.js"></script>
+</body>
+</html>
