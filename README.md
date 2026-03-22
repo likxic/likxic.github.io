@@ -9,7 +9,8 @@
 ## 三、页面主要内容说明
 - **页面效果展示**：
 - 
-   <img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/3d7e8635-8d1c-482f-a6e2-fcd51cb54bd2" />
+   ![Uploading image.png…]()
+
 
    ![Uploading image.png…]()
 
